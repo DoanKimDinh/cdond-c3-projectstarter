@@ -21,7 +21,7 @@ jobs:
           name: "Print ENV "
           command: "echo ${NAME}"
       - run:
-          name: "echo an env var that is part of our project"
+          name: "echo an env var that is part of our project "
           command: |
             echo $NAME
 
